@@ -1,0 +1,6 @@
+#Auto push this repo
+git add .
+curtime=`date`
+git commit -m "$(date +%F_%H-%M-%S) Automatic Backup @ $curtime"
+git push origin master
+
